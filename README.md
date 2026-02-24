@@ -66,12 +66,12 @@ python Extract_agent.py
 ### Step 2: Analyze Resume Against Job Description
 
 ```python
-# Edit Analyse_agent.py - Set your paths
+# Edit Analysis_agent.py - Set your paths
 path = "resume_output.json"        # Output from Step 1
 jd_path = "jd.txt"                 # Your job description text file
 
 # Run the analyzer
-python Analyse_agent.py
+python Analysis_agent.py
 ```
 
 **Output**: Match score (0-100) with detailed reasoning
@@ -79,9 +79,9 @@ python Analyse_agent.py
 ## 📂 Project Structure
 
 ```
-resume_analyse_agent/
+resume_Analysis_agent/
 ├── Extract_agent.py          # Resume extraction & parsing
-├── Analyse_agent.py          # Resume scoring & analysis
+├── Analysis_agent.py          # Resume scoring & analysis
 ├── requirements.txt          # Python dependencies
 ├── .env                      # Environment variables (create this)
 ├── .gitignore               # Git ignore rules
@@ -124,7 +124,7 @@ prompt = """Your custom extraction prompt..."""
 
 ### Customize Scoring Criteria
 
-Edit the prompt in `Analyse_agent.py` to adjust scoring logic:
+Edit the prompt in `Analysis_agent.py` to adjust scoring logic:
 
 ```python
 prompt = """Your custom scoring criteria..."""
