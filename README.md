@@ -10,7 +10,7 @@ An AI-powered resume extraction and analysis system that supports multiple file 
 - **AI-Powered Parsing**: Uses LLM to structure resume data into clean JSON format
 - **Output**: Structured JSON with sections like name, email, phone, education, experience, skills, etc.
 
-### 2. **Resume Scoring System** (`Analyse_agent.py`)
+### 2. **Resume Scoring System** (`Analysis_agent.py`)
 - **Job Description Matching**: Compares resume against job requirements
 - **AI-Powered Scoring**: Generates 0-100 score based on:
   - Relevant skills match
